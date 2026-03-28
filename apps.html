@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>アプリ開発部 — Ciel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@1,400&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo-lockup">
+        <img src="symbol.png" class="logo-symbol" alt="" aria-hidden="true">
+        <span class="logo-wordmark">Ciel</span>
+      </a>
+      <nav>
+        <a href="apps.html" class="nav-active">App</a>
+        <a href="insole.html">Insole</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- アプリ開発部 -->
+  <section class="division">
+    <div class="container">
+
+      <div class="division-meta fade-up">
+        <span class="division-num">01</span>
+        <h1 class="division-name">アプリ開発部</h1>
+      </div>
+
+      <p class="releases-label fade-up">最近のリリース</p>
+
+      <div class="app-item fade-up">
+        <h2 class="app-name">PLAYLOL</h2>
+        <p class="app-desc">欲しいものが、すぐ見つかる。<br>買い物をもっと楽しく、スマートにする検索アプリ。</p>
+        <div class="app-actions">
+          <a href="#" class="dl-btn">App Store</a>
+          <a href="#" class="dl-btn">Google Play</a>
+        </div>
+      </div>
+
+      <div class="app-item fade-up">
+        <h2 class="app-name">ゴルFIT</h2>
+        <p class="app-desc">スコアを記録し、練習を積み上げる。<br>ゴルフをもっと深く楽しむためのコンパニオンアプリ。</p>
+        <div class="app-status">現在開発中</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Ciel</p>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

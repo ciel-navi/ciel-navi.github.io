@@ -3,105 +3,111 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>株式会社シエル</title>
+  <title>Ciel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@1,400&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="loading">
+
+  <!-- オープニング -->
+  <div id="opening">
+    <div class="opening-bg"></div>
+    <div class="opening-frame">
+      <div class="opening-line-top"></div>
+      <div class="opening-content">
+        <img src="symbol.png" class="opening-logo-svg" alt="Ciel">
+        <div class="opening-sub">株式会社シエル</div>
+      </div>
+      <div class="opening-line-bottom"></div>
+    </div>
+  </div>
+
+  <!-- 斜線 -->
+  <svg class="the-line" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%"   stop-color="#4a4844" stop-opacity="0"/>
+        <stop offset="10%"  stop-color="#4a4844" stop-opacity="0.6"/>
+        <stop offset="90%"  stop-color="#4a4844" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#4a4844" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <line x1="0" y1="44%" x2="100%" y2="63%" stroke="url(#lg)" stroke-width="0.8"/>
+  </svg>
 
   <!-- ヘッダー -->
   <header>
     <div class="container header-inner">
-      <div class="logo">株式会社シエル</div>
+      <div class="logo-lockup">
+        <img src="symbol.png" class="logo-symbol" alt="" aria-hidden="true">
+        <span class="logo-wordmark">Ciel</span>
+      </div>
       <nav>
-        <a href="#about">会社概要</a>
-        <a href="#apps">アプリ</a>
-        <a href="#contact">お問い合わせ</a>
+        <a href="apps.html">App</a>
+        <a href="insole.html">Insole</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <!-- ヒーロー -->
   <section class="hero">
-    <div class="container hero-content">
-      <h1>暮らしに、もっと<br>使いやすさを。</h1>
-      <p>株式会社シエルは、日常をシンプルにするiOSアプリを開発しています。</p>
-      <a href="#apps" class="btn">アプリを見る</a>
-    </div>
-  </section>
-
-  <!-- 会社概要 -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title">会社概要</h2>
-      <table class="company-table">
-        <tr>
-          <th>会社名</th>
-          <td>株式会社シエル</td>
-        </tr>
-        <tr>
-          <th>事業内容</th>
-          <td>iOSアプリの企画・開発・運営</td>
-        </tr>
-        <tr>
-          <th>設立</th>
-          <td>2024年</td>
-        </tr>
-      </table>
-    </div>
-  </section>
-
-  <!-- アプリ紹介 -->
-  <section id="apps" class="section section-gray">
-    <div class="container">
-      <h2 class="section-title">提供アプリ</h2>
-      <div class="apps-grid">
-
-        <div class="app-card">
-          <div class="app-icon">📱</div>
-          <h3>アプリ名（準備中）</h3>
-          <p>アプリの説明が入ります。日常をもっと便利にするアプリです。</p>
-          <a href="#" class="btn btn-outline">App Storeで見る</a>
-        </div>
-
-        <div class="app-card">
-          <div class="app-icon">📱</div>
-          <h3>アプリ名（準備中）</h3>
-          <p>アプリの説明が入ります。シンプルで使いやすいデザインが特徴です。</p>
-          <a href="#" class="btn btn-outline">App Storeで見る</a>
-        </div>
-
+    <div class="hero-top">
+      <div>
+        <div class="hero-brand">Ciel</div>
+        <div class="hero-company">株式会社シエル</div>
       </div>
     </div>
   </section>
 
-  <!-- お問い合わせ -->
-  <section id="contact" class="section">
-    <div class="container contact-center">
-      <h2 class="section-title">お問い合わせ</h2>
-      <p>ご質問・ご要望はこちらからお気軽にどうぞ。</p>
-      <form class="contact-form" onsubmit="handleSubmit(event)">
-        <input type="text" placeholder="お名前" required />
-        <input type="email" placeholder="メールアドレス" required />
-        <textarea placeholder="お問い合わせ内容" rows="5" required></textarea>
-        <button type="submit" class="btn">送信する</button>
-      </form>
-      <p id="form-message" class="form-message"></p>
+  <!-- 事業一覧 -->
+  <section class="divisions-index">
+    <div class="container">
+      <a href="apps.html" class="division-link fade-up">
+        <span class="division-link-num">01</span>
+        <span class="division-link-name">アプリ開発部</span>
+        <span class="division-link-arrow">→</span>
+      </a>
+      <a href="insole.html" class="division-link fade-up">
+        <span class="division-link-num">02</span>
+        <span class="division-link-name">インソール事業部</span>
+        <span class="division-link-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- コンタクト -->
+  <section id="contact" class="contact-section">
+    <div class="container fade-up">
+      <a href="mailto:hello@ciel.co.jp" class="contact-email">hello@ciel.co.jp</a>
     </div>
   </section>
 
   <!-- フッター -->
   <footer>
     <div class="container">
-      <p>&copy; 2024 株式会社シエル All Rights Reserved.</p>
+      <p>&copy; 2025 Ciel</p>
     </div>
   </footer>
 
   <script>
-    function handleSubmit(e) {
-      e.preventDefault();
-      document.getElementById('form-message').textContent = 'お問い合わせを受け付けました。ありがとうございます。';
-      e.target.reset();
-    }
+    window.addEventListener('load', () => {
+      const opening = document.getElementById('opening');
+      setTimeout(() => {
+        opening.classList.add('hide');
+        document.body.classList.remove('loading');
+      }, 4200);
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
   </script>
 
 </body>
