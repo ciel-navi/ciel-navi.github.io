@@ -230,6 +230,16 @@ nav a.nav-active {
   position: relative;
 }
 
+.hero-watermark {
+  position: absolute;
+  right: 6vw;
+  top: 50%;
+  transform: translateY(-50%) scaleX(-1);
+  width: clamp(260px, 40vw, 560px);
+  opacity: 0.055;
+  pointer-events: none;
+}
+
 .hero-top {
   flex: 1;
   display: flex;
