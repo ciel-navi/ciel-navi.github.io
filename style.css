@@ -81,12 +81,14 @@ header, section, footer, .the-line {
 
 .opening-line-top {
   margin-bottom: 28px;
-  animation: openLineExpand 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.35s forwards;
+  animation: openLineExpand 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.35s forwards,
+             contentFade 0.45s cubic-bezier(0.4, 0, 1, 1) 2.2s forwards;
 }
 
 .opening-line-bottom {
   margin-top: 20px;
-  animation: openLineExpand 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.55s forwards;
+  animation: openLineExpand 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.55s forwards,
+             contentFade 0.45s cubic-bezier(0.4, 0, 1, 1) 2.2s forwards;
 }
 
 @keyframes openLineExpand {
