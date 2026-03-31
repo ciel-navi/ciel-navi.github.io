@@ -159,13 +159,18 @@ header, section, footer {
 /* ━━━━━━━━━━━━━━━━━━━━
    斜線
 ━━━━━━━━━━━━━━━━━━━━ */
+.line-stage {
+  position: relative;
+  height: 40vh;
+  overflow: hidden;
+}
+
 .the-line {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 0;
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━
@@ -272,7 +277,6 @@ nav a.nav-active {
 .divisions-index {
   border-top: 1px solid #1a1e30;
   padding: 80px 0;
-  position: relative;
 }
 
 .division-link {
@@ -283,8 +287,6 @@ nav a.nav-active {
   border-bottom: 1px solid #1a1e30;
   text-decoration: none;
   transition: opacity 0.3s;
-  position: relative;
-  z-index: 1;
 }
 
 .division-link:hover {
