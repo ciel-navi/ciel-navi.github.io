@@ -132,8 +132,8 @@ header, section, footer, .the-line {
 }
 
 .logo-symbol {
-  height: 40px;
-  width: 40px;
+  height: 54px;
+  width: 54px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center 15%;
@@ -184,7 +184,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 80px;
 }
 
 .logo-lockup {
@@ -213,7 +213,7 @@ nav a.nav-active {
 .logo-wordmark {
   font-family: 'Cinzel', Georgia, serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 28px;
   color: #f0ede6;
   letter-spacing: 0.22em;
   line-height: 1;
