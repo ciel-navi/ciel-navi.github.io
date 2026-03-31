@@ -35,8 +35,8 @@ body.loading .the-line {
 }
 
 header, section, footer, .the-line {
-  transition: opacity 1.6s cubic-bezier(0.16, 1, 0.3, 1) 1.4s,
-              filter 1.6s cubic-bezier(0.16, 1, 0.3, 1) 1.4s;
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s,
+              filter 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━
