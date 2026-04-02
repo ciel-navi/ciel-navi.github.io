@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 175" role="img" aria-label="Ciel">
+  <!--
+  Ciel Symbol Mark — Wolf head, facing left
+  ViewBox: 0 0 160 175
+  Near ear: upper-left  |  Far ear: upper-right
+  Muzzle: extends left  |  Colors: #1a1a1a / #f7f6f2 / #c4bba8
+  -->
+
+  <!-- ── OUTER HEAD SILHOUETTE (dark) ── -->
+  <path fill="#1a1a1a" d="
+    M 48,6
+    C 40,14 32,28 26,44
+    L 48,40
+    C 30,54 14,78 12,104
+    C 10,124 16,144 34,154
+    L 26,168
+    L 46,158
+    L 54,172
+    L 70,158
+    L 82,170
+    L 98,154
+    L 114,167
+    L 124,148
+    L 138,162
+    L 144,142
+    C 156,126 158,104 152,84
+    C 146,64 132,50 126,44
+    L 126,12
+    L 108,48
+    C 98,30 76,14 60,8
+    Z
+  "/>
+
+  <!-- ── LIGHT FACE AREA ── -->
+  <path fill="#f7f6f2" d="
+    M 18,102
+    C 14,86 22,66 40,56
+    C 54,48 72,48 88,56
+    C 106,65 116,84 116,104
+    C 116,124 104,142 86,150
+    C 68,158 46,152 32,142
+    C 18,130 18,116 18,102
+    Z
+  "/>
+
+  <!-- ── FOREHEAD FUR (dark, encroaches into face) ── -->
+  <path fill="#1a1a1a" d="M 40,56 L 62,50 L 88,56 L 82,68 L 58,70 L 38,68 Z"/>
+
+  <!-- ── DARK BROW / EYE BAND ── -->
+  <path fill="#1a1a1a" d="M 22,82 L 60,72 L 104,79 L 100,97 L 58,102 L 20,96 Z"/>
+
+  <!-- ── CHEEK ANGULAR MARKS ── -->
+  <path fill="#1a1a1a" d="M 14,108 L 28,102 L 30,114 L 16,120 Z"/>
+  <path fill="#1a1a1a" d="M 12,124 L 26,120 L 28,132 L 14,136 Z"/>
+
+  <!-- ── LEFT EYE (near, larger) ── -->
+  <path fill="#1a1a1a" d="M 26,84 L 46,77 L 60,84 L 44,93 Z"/>
+  <ellipse cx="44" cy="85" rx="7" ry="5" fill="#f7f6f2"/>
+  <circle cx="44" cy="85" r="2.5" fill="#1a1a1a"/>
+
+  <!-- ── RIGHT EYE (far, smaller) ── -->
+  <path fill="#1a1a1a" d="M 68,80 L 84,74 L 94,80 L 82,88 Z"/>
+  <ellipse cx="81" cy="81" rx="5.5" ry="4" fill="#f7f6f2"/>
+  <circle cx="81" cy="81" r="2" fill="#1a1a1a"/>
+
+  <!-- ── NOSE ── -->
+  <path fill="#1a1a1a" d="M 12,102 L 20,95 L 20,109 Z"/>
+
+  <!-- ── MOUTH LINE ── -->
+  <path fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"
+        d="M 20,110 C 26,118 40,122 50,119"/>
+
+  <!-- ── INNER EAR (left / near) ── -->
+  <path fill="#c4bba8" d="M 48,10 L 36,38 L 56,34 Z"/>
+
+  <!-- ── INNER EAR (right / far) ── -->
+  <path fill="#888880" d="M 126,16 L 116,42 L 132,40 Z"/>
+
+</svg>

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 76" role="img" aria-label="Ciel">
+  <!--
+  ═══════════════════════════════════════════════════════════════
+  株式会社シエル — Custom Wordmark
+  ───────────────────────────────────────────────────────────────
+  Design principles
+  · Italic serif letterforms, hand-drawn from first principles
+  · No existing font used. Every bezier point is intentional.
+  · Italic angle: 12°  (lean = height × tan 12° ≈ height × 0.213)
+  · Main stroke:  1.2 px
+  · Serifs / cuts: 0.75 px
+  ───────────────────────────────────────────────────────────────
+  Coordinate grid (ViewBox 0 0 200 76)
+  · Baseline      y = 66
+  · X-height top  y = 28   (x-height = 38 px)
+  · Cap / ascend  y = 14   (cap height = 52 px)
+  · Round overshoot ± 2 px at top/bottom (optical correction)
+  ───────────────────────────────────────────────────────────────
+  Letter positions (x, baseline y=66)
+  · C  x =  15 … 61   (cap height, open arc)
+  · i  x =  71 … 93   (x-height, diamond dot)
+  · e  x = 100 … 157  (x-height, crossbar aperture)
+  · l  x = 167 … 190  (ascender, calligraphic foot)
+  ═══════════════════════════════════════════════════════════════
+  -->
+
+  <!-- ─────────────────────────────────────────────
+       C  —  Capital, open arc
+       Upper terminal (61,27) → CCW arc → lower terminal (61,57)
+       The thick optical weight sits at the left arch (x≈9).
+       Terminal cuts follow the pen angle (~40° from horizontal).
+  ───────────────────────────────────────────────── -->
+
+  <path
+    d="M 61,27
+       C 53,11  25,9   15,25
+       C  9,33   9,51  15,57
+       C 25,71  53,71  61,57"
+    fill="none"
+    stroke="#1a1a1a"
+    stroke-width="1.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- C — upper terminal cut (pen-angle serif, ~40°) -->
+  <line x1="57" y1="29" x2="65" y2="24"
+        stroke="#1a1a1a" stroke-width="0.75" stroke-linecap="square"/>
+
+  <!-- C — lower terminal cut -->
+  <line x1="57" y1="55" x2="65" y2="60"
+        stroke="#1a1a1a" stroke-width="0.75" stroke-linecap="square"/>
+
+
+  <!-- ─────────────────────────────────────────────
+       i  —  x-height, italic stem
+       Stem leans 12°: top (86,28) → foot (78,66).
+       Lean = 38 px × 0.213 ≈ 8 px ✓
+
+       Signature detail: the dot is a diamond (◆), not a circle.
+       This is the one mark that is purely ours.
+  ───────────────────────────────────────────────── -->
+
+  <!-- i — diamond dot: centered at (87, 17), 10 px wide × 10 px tall -->
+  <path
+    d="M 87,12  L 92,17  L 87,22  L 82,17  Z"
+    fill="#1a1a1a"
+  />
+
+  <!-- i — italic stem -->
+  <line x1="86" y1="28" x2="78" y2="66"
+        stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="butt"/>
+
+  <!-- i — top serif (centered on stem top at x=86) -->
+  <line x1="80" y1="28" x2="92" y2="28"
+        stroke="#1a1a1a" stroke-width="0.75" stroke-linecap="square"/>
+
+  <!-- i — foot serif (centered on stem foot at x=78, wider on the left) -->
+  <line x1="71" y1="66" x2="85" y2="66"
+        stroke="#1a1a1a" stroke-width="0.75" stroke-linecap="square"/>
+
+
+  <!-- ─────────────────────────────────────────────
+       e  —  x-height, oval with crossbar aperture
+       Arc starts at crossbar-right (157,46), goes CCW:
+         upper arc → left arch → lower arc → lower terminal (157,58).
+       The crossbar slopes 2 px over 51 px — barely perceptible
+       italic tilt that separates this from a geometric e.
+  ───────────────────────────────────────────────── -->
+
+  <path
+    d="M 157,46
+       C 146,22  120,22  110,28
+       C 100,36  100,56  110,68
+       C 116,70  138,70  157,58"
+    fill="none"
+    stroke="#1a1a1a"
+    stroke-width="1.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- e — crossbar: slight upward slope (italic suggestion) -->
+  <!-- left end at (106,48), right end at (157,46): 2px rise = ~2.3° tilt -->
+  <line x1="106" y1="48" x2="157" y2="46"
+        stroke="#1a1a1a" stroke-width="0.75" stroke-linecap="square"/>
+
+
+  <!-- ─────────────────────────────────────────────
+       l  —  ascender, same cap height as C
+       Stem leans 12°: top (185,14) → foot (173,66).
+       Lean = 52 px × 0.213 ≈ 11 px ✓
+       Foot serif is wider on the left (calligraphic entry feel).
+       Exit stroke: the pen trails off diagonally — the only
+       truly "drawn" gesture in this wordmark.
+  ───────────────────────────────────────────────── -->
+
+  <!-- l — stem -->
+  <line x1="185" y1="14" x2="173" y2="66"
+        stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="butt"/>
+
+  <!-- l — top serif -->
+  <line x1="180" y1="14" x2="190" y2="14"
+        stroke="#1a1a1a" stroke-width="0.75" stroke-linecap="square"/>
+
+  <!-- l — foot serif (16 px, biased left: 10 px left of stem, 6 px right) -->
+  <line x1="163" y1="66" x2="179" y2="66"
+        stroke="#1a1a1a" stroke-width="0.75" stroke-linecap="square"/>
+
+  <!-- l — calligraphic exit stroke (pen lifts and trails right) -->
+  <line x1="179" y1="66" x2="186" y2="71"
+        stroke="#1a1a1a" stroke-width="0.65" stroke-linecap="round"/>
+
+</svg>
