@@ -200,7 +200,7 @@ nav {
 }
 
 nav a {
-  color: #8890aa;
+  color: #5c6480;
   text-decoration: none;
   font-size: 10px;
   letter-spacing: 0.18em;
@@ -263,7 +263,7 @@ nav a.nav-active {
 .hero-company {
   font-size: 11px;
   letter-spacing: 0.26em;
-  color: #8890aa;
+  color: #5c6480;
   text-transform: uppercase;
   margin-top: 16px;
   font-weight: 300;
@@ -295,7 +295,7 @@ nav a.nav-active {
   font-family: 'Cinzel', Georgia, serif;
   font-size: 11px;
   letter-spacing: 0.2em;
-  color: #c0c5d8;
+  color: #7880a0;
   min-width: 28px;
 }
 
@@ -308,7 +308,7 @@ nav a.nav-active {
 }
 
 .division-link-arrow {
-  color: #c0c5d8;
+  color: #7880a0;
   font-size: 16px;
 }
 
@@ -332,7 +332,7 @@ nav a.nav-active {
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.2em;
-  color: #c0c5d8;
+  color: #7880a0;
 }
 
 .division-name {
@@ -340,7 +340,7 @@ nav a.nav-active {
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.24em;
-  color: #8890aa;
+  color: #5c6480;
   text-transform: uppercase;
 }
 
@@ -350,7 +350,7 @@ nav a.nav-active {
 .releases-label {
   font-size: 10px;
   letter-spacing: 0.22em;
-  color: #c0c5d8;
+  color: #7880a0;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -372,7 +372,7 @@ nav a.nav-active {
 
 .app-desc {
   font-size: 13px;
-  color: #687088;
+  color: #4a5270;
   font-weight: 300;
   letter-spacing: 0.06em;
   line-height: 2.4;
@@ -415,7 +415,7 @@ nav a.nav-active {
 .app-status {
   display: inline-block;
   border: 1px solid #e8eaf0;
-  color: #c0c5d8;
+  color: #7880a0;
   font-size: 10px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -460,7 +460,7 @@ nav a.nav-active {
 }
 
 .contact-email:hover {
-  color: #8890aa;
+  color: #5c6480;
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━
@@ -474,7 +474,7 @@ footer {
 footer p {
   font-size: 10px;
   letter-spacing: 0.18em;
-  color: #adb5c8;
+  color: #7880a0;
   text-transform: uppercase;
 }
 
