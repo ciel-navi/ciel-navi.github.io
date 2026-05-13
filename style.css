@@ -329,17 +329,17 @@ nav a.nav-active {
 
 .division-num {
   font-family: 'Cinzel', Georgia, serif;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   color: #4a5270;
 }
 
 .division-name {
   font-family: 'Cinzel', Georgia, serif;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 400;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.12em;
   color: #3a4260;
   text-transform: uppercase;
 }
@@ -348,8 +348,8 @@ nav a.nav-active {
    アプリ開発部
 ━━━━━━━━━━━━━━━━━━━━ */
 .releases-label {
-  font-size: 13px;
-  letter-spacing: 0.22em;
+  font-size: 15px;
+  letter-spacing: 0.1em;
   color: #4a5270;
   text-transform: uppercase;
   margin-bottom: 40px;
