@@ -177,7 +177,7 @@ header, section, footer {
 header {
   background: rgba(255,255,255,0.97);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid #e8eaf0;
+  border-bottom: 1px solid #b0b8d0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -273,7 +273,7 @@ nav a.nav-active {
    トップ — 事業一覧
 ━━━━━━━━━━━━━━━━━━━━ */
 .divisions-index {
-  border-top: 1px solid #e8eaf0;
+  border-top: 1px solid #b0b8d0;
   padding: 80px 0;
 }
 
@@ -282,7 +282,7 @@ nav a.nav-active {
   align-items: center;
   gap: 24px;
   padding: 36px 0;
-  border-bottom: 1px solid #e8eaf0;
+  border-bottom: 1px solid #b0b8d0;
   text-decoration: none;
   transition: opacity 0.3s;
 }
@@ -317,7 +317,7 @@ nav a.nav-active {
 ━━━━━━━━━━━━━━━━━━━━ */
 .division {
   padding: 120px 0;
-  border-top: 1px solid #e8eaf0;
+  border-top: 1px solid #b0b8d0;
 }
 
 .division-meta {
@@ -357,7 +357,7 @@ nav a.nav-active {
 
 .app-item {
   padding: 48px 0;
-  border-top: 1px solid #e8eaf0;
+  border-top: 1px solid #b0b8d0;
 }
 
 .app-name {
@@ -414,7 +414,7 @@ nav a.nav-active {
 
 .app-status {
   display: inline-block;
-  border: 1px solid #e8eaf0;
+  border: 1px solid #b0b8d0;
   color: #4a5270;
   font-size: 13px;
   letter-spacing: 0.16em;
@@ -445,7 +445,7 @@ nav a.nav-active {
 ━━━━━━━━━━━━━━━━━━━━ */
 .contact-section {
   padding: 120px 0 160px;
-  border-top: 1px solid #e8eaf0;
+  border-top: 1px solid #b0b8d0;
 }
 
 .contact-email {
@@ -468,7 +468,7 @@ nav a.nav-active {
 ━━━━━━━━━━━━━━━━━━━━ */
 footer {
   padding: 32px 0;
-  border-top: 1px solid #e8eaf0;
+  border-top: 1px solid #b0b8d0;
 }
 
 footer p {
