@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Noto Sans JP', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #0f1633;
   line-height: 1.9;
   background: #ffffff;
@@ -200,7 +200,7 @@ nav {
 }
 
 nav a {
-  color: #5c6480;
+  color: #3a4260;
   text-decoration: none;
   font-size: 13px;
   letter-spacing: 0.18em;
@@ -263,7 +263,7 @@ nav a.nav-active {
 .hero-company {
   font-size: 11px;
   letter-spacing: 0.26em;
-  color: #5c6480;
+  color: #3a4260;
   text-transform: uppercase;
   margin-top: 16px;
   font-weight: 300;
@@ -295,7 +295,7 @@ nav a.nav-active {
   font-family: 'Cinzel', Georgia, serif;
   font-size: 14px;
   letter-spacing: 0.2em;
-  color: #7880a0;
+  color: #4a5270;
   min-width: 32px;
 }
 
@@ -308,7 +308,7 @@ nav a.nav-active {
 }
 
 .division-link-arrow {
-  color: #7880a0;
+  color: #4a5270;
   font-size: 20px;
 }
 
@@ -332,7 +332,7 @@ nav a.nav-active {
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.2em;
-  color: #7880a0;
+  color: #4a5270;
 }
 
 .division-name {
@@ -340,7 +340,7 @@ nav a.nav-active {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.24em;
-  color: #5c6480;
+  color: #3a4260;
   text-transform: uppercase;
 }
 
@@ -350,7 +350,7 @@ nav a.nav-active {
 .releases-label {
   font-size: 13px;
   letter-spacing: 0.22em;
-  color: #7880a0;
+  color: #4a5270;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -372,8 +372,8 @@ nav a.nav-active {
 
 .app-desc {
   font-size: 16px;
-  color: #4a5270;
-  font-weight: 300;
+  color: #2a3050;
+  font-weight: 400;
   letter-spacing: 0.06em;
   line-height: 2.4;
 }
@@ -415,7 +415,7 @@ nav a.nav-active {
 .app-status {
   display: inline-block;
   border: 1px solid #e8eaf0;
-  color: #7880a0;
+  color: #4a5270;
   font-size: 13px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -460,7 +460,7 @@ nav a.nav-active {
 }
 
 .contact-email:hover {
-  color: #5c6480;
+  color: #3a4260;
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━
@@ -474,7 +474,7 @@ footer {
 footer p {
   font-size: 13px;
   letter-spacing: 0.18em;
-  color: #7880a0;
+  color: #4a5270;
   text-transform: uppercase;
 }
 
