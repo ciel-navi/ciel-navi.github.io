@@ -21,6 +21,12 @@
 - `symbol.png` — ロゴアイコン（キツネ）
 - `symbol.svg` / `wordmark.svg` — SVGアセット（未追跡）
 
+## デプロイワークフロー
+- **開発・確認**: GitHub Pages（`ciel-navi.github.io`）でプレビュー → `git push` で自動反映
+- **本番反映**: Xserverのファイルマネージャーから手動アップロード（`cielsaloon.com`）
+- まとめて変更してから一括アップが効率的
+- アップ手順: `zip ~/Desktop/ciel-upload.zip index.html apps.html insole.html style.css symbol.png sitemap.xml robots.txt symbol.svg wordmark.svg` → `public_html`にアップ → 展開
+
 ## GitHub
 - Organization: `ciel-navi`
 - リポジトリ: `ciel-navi/ciel-navi.github.io`
