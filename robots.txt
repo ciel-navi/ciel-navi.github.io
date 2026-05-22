@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ciel-navi.github.io/sitemap.xml
+Sitemap: https://cielsaloon.com/sitemap.xml

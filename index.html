@@ -4,25 +4,54 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ciel | 株式会社シエル</title>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XT0MEYFYTY"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QBFLTQLYT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XT0MEYFYTY');
+    gtag('config', 'G-8QBFLTQLYT');
   </script>
-  <meta name="description" content="株式会社シエル（Ciel）のコーポレートサイト。アプリ開発とインソール事業を展開しています。" />
+  <meta name="description" content="株式会社シエル（Ciel）のコーポレートサイト。アプリ開発、LP制作、AI・デジタル支援、インソール事業を展開しています。" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://cielsaloon.com/" />
   <meta property="og:title" content="Ciel | 株式会社シエル" />
-  <meta property="og:description" content="株式会社シエル（Ciel）のコーポレートサイト。アプリ開発とインソール事業を展開しています。" />
+  <meta property="og:description" content="株式会社シエル（Ciel）のコーポレートサイト。アプリ開発、LP制作、AI・デジタル支援、インソール事業を展開しています。" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ciel-navi.github.io/" />
+  <meta property="og:url" content="https://cielsaloon.com/" />
+  <meta property="og:site_name" content="Ciel | 株式会社シエル" />
+  <meta property="og:image" content="https://cielsaloon.com/symbol.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Ciel | 株式会社シエル" />
-  <meta name="twitter:description" content="株式会社シエル（Ciel）のコーポレートサイト。アプリ開発とインソール事業を展開しています。" />
+  <meta name="twitter:description" content="株式会社シエル（Ciel）のコーポレートサイト。アプリ開発、LP制作、AI・デジタル支援、インソール事業を展開しています。" />
+  <meta name="twitter:image" content="https://cielsaloon.com/symbol.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@1,400&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "株式会社シエル",
+    "alternateName": "Ciel Inc.",
+    "url": "https://cielsaloon.com/",
+    "logo": "https://cielsaloon.com/symbol.png",
+    "email": "ciel.kk.info@gmail.com",
+    "foundingDate": "2014-03",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kyotanabe",
+      "addressRegion": "Kyoto",
+      "addressCountry": "JP"
+    },
+    "makesOffer": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "アプリ開発"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "LP制作"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI・デジタル支援"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "インソール"}}
+    ]
+  }
+  </script>
 </head>
 <body class="loading">
 
@@ -47,9 +76,12 @@
         <span class="logo-wordmark">Ciel</span>
       </div>
       <nav>
+        <a href="company.html">Company</a>
+        <a href="business.html">Business</a>
         <a href="apps.html">App</a>
+        <a href="lp.html">LP</a>
         <a href="insole.html">Insole</a>
-        <a href="#contact">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
@@ -67,26 +99,102 @@
     <line x1="0" y1="40%" x2="100%" y2="60%" stroke="url(#lg)" stroke-width="0.8"/>
   </svg>
 
-  <!-- 事業一覧 -->
-  <section class="divisions-index">
+  <!-- ヒーロー -->
+  <main class="home-hero">
+    <div class="container hero-grid">
+      <div class="hero-copy fade-up">
+        <span class="hero-status">Active / 2026</span>
+        <h1>Ciel</h1>
+        <p class="hero-lead">アプリ、LP、AI活用、インソール。小さな違和感を、使える形に変えていく会社です。</p>
+        <div class="hero-actions">
+          <a href="business.html" class="primary-link">事業を見る</a>
+          <a href="contact.html" class="secondary-link">問い合わせ</a>
+        </div>
+      </div>
+      <div class="hero-panel fade-up" aria-label="Cielの稼働状況">
+        <div class="hero-illustration-wrap" aria-hidden="true">
+          <img src="brand-illustration.svg" class="hero-illustration" alt="">
+        </div>
+        <div class="panel-head">
+          <span>Now Building</span>
+          <span>04 divisions</span>
+        </div>
+        <div class="signal-board">
+          <a href="apps.html">
+            <span>01</span>
+            <strong>App</strong>
+            <small>Avoid リスト / Android</small>
+          </a>
+          <a href="lp.html">
+            <span>02</span>
+            <strong>LP</strong>
+            <small>公開導線 / 事業説明</small>
+          </a>
+          <a href="business.html">
+            <span>03</span>
+            <strong>AI</strong>
+            <small>業務と発信の支援</small>
+          </a>
+          <a href="insole.html">
+            <span>04</span>
+            <strong>Insole</strong>
+            <small>足元から整える</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- トップ導線 -->
+  <section class="home-directory">
     <div class="container">
-      <a href="apps.html" class="division-link fade-up">
-        <span class="division-link-num">01</span>
-        <span class="division-link-name">アプリ開発部</span>
-        <span class="division-link-arrow">→</span>
-      </a>
-      <a href="insole.html" class="division-link fade-up">
-        <span class="division-link-num">02</span>
-        <span class="division-link-name">インソール事業部</span>
-        <span class="division-link-arrow">→</span>
-      </a>
+      <div class="section-heading fade-up">
+        <span class="section-kicker">Directory</span>
+        <h2>Site Index</h2>
+      </div>
+
+      <div class="business-list">
+        <a href="company.html" class="division-link fade-up">
+          <span class="division-link-num">01</span>
+          <span class="division-link-name">会社概要</span>
+          <span class="division-link-text">所在地、設立、資本金、事業内容など、会社情報を掲載しています。</span>
+          <span class="division-link-arrow">→</span>
+        </a>
+        <a href="business.html" class="division-link fade-up">
+          <span class="division-link-num">02</span>
+          <span class="division-link-name">事業内容</span>
+          <span class="division-link-text">アプリ開発、LP制作、AI・デジタル支援、インソール事業を整理しています。</span>
+          <span class="division-link-arrow">→</span>
+        </a>
+        <a href="apps.html" class="division-link fade-up">
+          <span class="division-link-num">03</span>
+          <span class="division-link-name">アプリ開発部</span>
+          <span class="division-link-text">企画、UI設計、Androidアプリ、Webアプリの制作について。</span>
+          <span class="division-link-arrow">→</span>
+        </a>
+        <a href="contact.html" class="division-link fade-up">
+          <span class="division-link-num">04</span>
+          <span class="division-link-name">お問い合わせ</span>
+          <span class="division-link-text">制作、開発、事業に関するお問い合わせはこちらから。</span>
+          <span class="division-link-arrow">→</span>
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- コンタクト -->
-  <section id="contact" class="contact-section">
-    <div class="container fade-up">
-      <a href="mailto:hello@ciel.co.jp" class="contact-email">hello@ciel.co.jp</a>
+  <section class="motion-strip" aria-label="Cielの制作フロー">
+    <div class="container motion-strip-inner fade-up">
+      <div class="motion-copy">
+        <span class="section-kicker">Motion</span>
+        <h2>考える、形にする、動かす。</h2>
+        <p>企画だけで止めず、画面、言葉、公開導線までつないで、使える状態にしていきます。</p>
+      </div>
+      <div class="motion-steps" aria-hidden="true">
+        <span>Idea</span>
+        <span>Design</span>
+        <span>Build</span>
+        <span>Release</span>
+      </div>
     </div>
   </section>
 

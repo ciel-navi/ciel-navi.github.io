@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ciel-navi.github.io/</loc>
+    <loc>https://cielsaloon.com/</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://ciel-navi.github.io/apps.html</loc>
+    <loc>https://cielsaloon.com/apps.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://ciel-navi.github.io/insole.html</loc>
+    <loc>https://cielsaloon.com/company.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cielsaloon.com/business.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cielsaloon.com/lp.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cielsaloon.com/insole.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cielsaloon.com/contact.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cielsaloon.com/brand-illustration.svg</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
   </url>
 </urlset>
