@@ -27,7 +27,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@1,400&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=202606021035" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -44,10 +44,16 @@
       "addressRegion": "Kyoto",
       "addressCountry": "JP"
     },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "ciel.kk.info@gmail.com",
+      "availableLanguage": ["ja"]
+    },
     "makesOffer": [
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "アプリ開発"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "LP制作"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI・デジタル支援"}},
+      {"@type": "Offer", "priceCurrency": "JPY", "priceSpecification": {"@type": "PriceSpecification", "minPrice": 150000}, "itemOffered": {"@type": "Service", "name": "アプリ開発"}},
+      {"@type": "Offer", "priceCurrency": "JPY", "priceSpecification": {"@type": "PriceSpecification", "minPrice": 80000}, "itemOffered": {"@type": "Service", "name": "LP制作"}},
+      {"@type": "Offer", "priceCurrency": "JPY", "priceSpecification": {"@type": "PriceSpecification", "minPrice": 30000}, "itemOffered": {"@type": "Service", "name": "AI・デジタル支援"}},
       {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "インソール"}}
     ]
   }
@@ -76,6 +82,7 @@
         <span class="logo-wordmark">Ciel</span>
       </div>
       <nav>
+        <a href="index.html" class="nav-active">Home</a>
         <a href="company.html">Company</a>
         <a href="business.html">Business</a>
         <a href="apps.html">App</a>
@@ -103,97 +110,113 @@
   <main class="home-hero">
     <div class="container hero-grid">
       <div class="hero-copy fade-up">
-        <span class="hero-status">Active / 2026</span>
+        <span class="hero-status">Ciel / Kyoto</span>
         <h1>Ciel</h1>
-        <p class="hero-lead">アプリ、LP、AI活用、インソール。小さな違和感を、使える形に変えていく会社です。</p>
+        <p class="hero-lead">アプリ、Web、AI活用、インソール。<br>暮らしと事業の中にある「ちょっと不便」を<br>ちょっと便利に.</p>
         <div class="hero-actions">
-          <a href="business.html" class="primary-link">事業を見る</a>
-          <a href="contact.html" class="secondary-link">問い合わせ</a>
+          <a href="business.html" class="primary-link">事業内容へ</a>
+          <a href="contact.html" class="secondary-link">相談する</a>
         </div>
       </div>
-      <div class="hero-panel fade-up" aria-label="Cielの稼働状況">
-        <div class="hero-illustration-wrap" aria-hidden="true">
-          <img src="brand-illustration.svg" class="hero-illustration" alt="">
+      <div class="hero-panel hero-studio fade-up" aria-label="Cielの事業領域">
+        <figure class="studio-photo">
+          <img src="ciel-studio-photo.png" alt="Cielの制作領域をイメージしたデスクシーン">
+        </figure>
+        <div class="studio-copy">
+          <span>What we do</span>
+          <strong>Idea to usable shape.</strong>
+          <p>企画、設計、公開、改善まで。小さく始めて、使われる状態に育てます。</p>
         </div>
-        <div class="panel-head">
-          <span>Now Building</span>
-          <span>04 divisions</span>
-        </div>
-        <div class="signal-board">
-          <a href="apps.html">
-            <span>01</span>
-            <strong>App</strong>
-            <small>Avoid リスト / Android</small>
-          </a>
-          <a href="lp.html">
-            <span>02</span>
-            <strong>LP</strong>
-            <small>公開導線 / 事業説明</small>
-          </a>
-          <a href="business.html">
-            <span>03</span>
-            <strong>AI</strong>
-            <small>業務と発信の支援</small>
-          </a>
-          <a href="insole.html">
-            <span>04</span>
-            <strong>Insole</strong>
-            <small>足元から整える</small>
-          </a>
+        <div class="studio-lines" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
         </div>
       </div>
     </div>
   </main>
 
-  <!-- トップ導線 -->
-  <section class="home-directory">
+  <section class="brand-flow" aria-label="Cielの制作領域">
+    <div class="container brand-flow-inner">
+      <div class="brand-flow-copy fade-up">
+        <span class="section-kicker">Live Structure</span>
+        <h2><span>-点が繋がる-</span><span>・動きが生まれる・</span></h2>
+        <p>アプリ、ページ、AI、身体感覚。<br>別々に見える課題を、使える導線としてつなぎます。</p>
+      </div>
+      <div class="flow-stage fade-up" aria-hidden="true">
+        <div class="flow-grid"></div>
+        <span class="flow-line flow-line-a"></span>
+        <span class="flow-line flow-line-b"></span>
+        <div class="flow-node flow-node-main">
+          <span>Core</span>
+          <strong>Ciel</strong>
+        </div>
+        <div class="flow-node flow-node-app">
+          <span>01</span>
+          <strong>App</strong>
+        </div>
+        <div class="flow-node flow-node-lp">
+          <span>02</span>
+          <strong>LP</strong>
+        </div>
+        <div class="flow-node flow-node-ai">
+          <span>03</span>
+          <strong>AI</strong>
+        </div>
+        <div class="flow-node flow-node-insole">
+          <span>04</span>
+          <strong>Insole</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-services">
     <div class="container">
       <div class="section-heading fade-up">
-        <span class="section-kicker">Directory</span>
-        <h2>Site Index</h2>
+        <span class="section-kicker">Business</span>
+        <h2>4つの入口</h2>
       </div>
 
-      <div class="business-list">
-        <a href="company.html" class="division-link fade-up">
-          <span class="division-link-num">01</span>
-          <span class="division-link-name">会社概要</span>
-          <span class="division-link-text">所在地、設立、資本金、事業内容など、会社情報を掲載しています。</span>
-          <span class="division-link-arrow">→</span>
+      <div class="service-orbit">
+        <a href="apps.html" class="service-tile fade-up">
+          <span>01</span>
+          <h3>App</h3>
+          <p>習慣、記録、判断を軽くするアプリを企画から配布まで。</p>
         </a>
-        <a href="business.html" class="division-link fade-up">
-          <span class="division-link-num">02</span>
-          <span class="division-link-name">事業内容</span>
-          <span class="division-link-text">アプリ開発、LP制作、AI・デジタル支援、インソール事業を整理しています。</span>
-          <span class="division-link-arrow">→</span>
+        <a href="lp.html" class="service-tile fade-up">
+          <span>02</span>
+          <h3>LP</h3>
+          <p>サービスの価値を整理し、問い合わせやDLにつながるページへ。</p>
         </a>
-        <a href="apps.html" class="division-link fade-up">
-          <span class="division-link-num">03</span>
-          <span class="division-link-name">アプリ開発部</span>
-          <span class="division-link-text">企画、UI設計、Androidアプリ、Webアプリの制作について。</span>
-          <span class="division-link-arrow">→</span>
+        <a href="business.html" class="service-tile fade-up">
+          <span>03</span>
+          <h3>AI / Digital</h3>
+          <p>AI活用、発信、業務導線を現場に合わせて整えます。</p>
         </a>
-        <a href="contact.html" class="division-link fade-up">
-          <span class="division-link-num">04</span>
-          <span class="division-link-name">お問い合わせ</span>
-          <span class="division-link-text">制作、開発、事業に関するお問い合わせはこちらから。</span>
-          <span class="division-link-arrow">→</span>
+        <a href="insole.html" class="service-tile fade-up">
+          <span>04</span>
+          <h3>Insole</h3>
+          <p>足元の違和感に向き合い、動きやすさを支えます。</p>
         </a>
       </div>
     </div>
   </section>
 
-  <section class="motion-strip" aria-label="Cielの制作フロー">
-    <div class="container motion-strip-inner fade-up">
-      <div class="motion-copy">
-        <span class="section-kicker">Motion</span>
-        <h2>考える、形にする、動かす。</h2>
-        <p>企画だけで止めず、画面、言葉、公開導線までつないで、使える状態にしていきます。</p>
+  <section class="home-method" aria-label="Cielの制作姿勢">
+    <div class="container method-grid">
+      <div class="method-copy fade-up">
+        <span class="section-kicker">Method</span>
+        <h2>
+          <span>作って終わり</span>
+          <span>ではなく、使える</span>
+          <span>ところまで。</span>
+        </h2>
+        <p>見た目、文章、公開導線、更新のしやすさ。小さなプロダクトでも、外へ出したあとに困らない状態を目指します。</p>
       </div>
-      <div class="motion-steps" aria-hidden="true">
-        <span>Idea</span>
-        <span>Design</span>
-        <span>Build</span>
-        <span>Release</span>
+      <div class="method-board fade-up">
+        <div><span>01</span><strong>Find</strong><p>違和感を見つける</p></div>
+        <div><span>02</span><strong>Design</strong><p>触れる形へ整える</p></div>
+        <div><span>03</span><strong>Build</strong><p>公開できる状態にする</p></div>
+        <div><span>04</span><strong>Grow</strong><p>使いながら改善する</p></div>
       </div>
     </div>
   </section>
@@ -208,6 +231,15 @@
   <script>
     window.addEventListener('load', () => {
       const opening = document.getElementById('opening');
+      const hasSeenOpening = sessionStorage.getItem('cielOpeningSeen') === '1';
+
+      if (hasSeenOpening) {
+        opening.classList.add('hide');
+        document.body.classList.remove('loading');
+        return;
+      }
+
+      sessionStorage.setItem('cielOpeningSeen', '1');
       setTimeout(() => {
         opening.classList.add('hide');
         document.body.classList.remove('loading');

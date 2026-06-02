@@ -11,23 +11,37 @@
     gtag('js', new Date());
     gtag('config', 'G-8QBFLTQLYT');
   </script>
-  <meta name="description" content="株式会社シエルへのお問い合わせページ。アプリ開発、LP制作、AI支援、インソール事業に関する相談はこちら。" />
+  <meta name="description" content="株式会社シエルへのお問い合わせフォーム。アプリ開発、LP制作、AI・デジタル支援、インソール事業の相談を受け付けています。" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://cielsaloon.com/contact.html" />
   <meta property="og:title" content="お問い合わせ — Ciel | 株式会社シエル" />
-  <meta property="og:description" content="株式会社シエルへのお問い合わせページ。アプリ開発、LP制作、AI支援、インソール事業に関する相談はこちら。" />
+  <meta property="og:description" content="株式会社シエルへのお問い合わせフォーム。アプリ開発、LP制作、AI・デジタル支援、インソール事業の相談を受け付けています。" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://cielsaloon.com/contact.html" />
   <meta property="og:site_name" content="Ciel | 株式会社シエル" />
   <meta property="og:image" content="https://cielsaloon.com/symbol.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="お問い合わせ — Ciel | 株式会社シエル" />
-  <meta name="twitter:description" content="株式会社シエルへのお問い合わせページ。アプリ開発、LP制作、AI支援、インソール事業に関する相談はこちら。" />
+  <meta name="twitter:description" content="株式会社シエルへのお問い合わせフォーム。アプリ開発、LP制作、AI・デジタル支援、インソール事業の相談を受け付けています。" />
   <meta name="twitter:image" content="https://cielsaloon.com/symbol.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@1,400&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=202606021035" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "お問い合わせ",
+    "url": "https://cielsaloon.com/contact.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "株式会社シエル",
+      "email": "ciel.kk.info@gmail.com",
+      "url": "https://cielsaloon.com/"
+    }
+  }
+  </script>
 </head>
 <body>
   <header>
@@ -37,6 +51,7 @@
         <span class="logo-wordmark">Ciel</span>
       </a>
       <nav>
+        <a href="index.html">Home</a>
         <a href="company.html">Company</a>
         <a href="business.html">Business</a>
         <a href="apps.html">App</a>
@@ -51,14 +66,53 @@
     <div class="container section-heading fade-up">
       <span class="section-kicker">Contact</span>
       <h1>お問い合わせ</h1>
+      <p class="page-lead">制作、開発、AI活用、インソールに関する相談を受け付けています。内容が固まっていない段階でも大丈夫です。</p>
     </div>
   </main>
 
   <section class="contact-page page-section">
     <div class="container">
-      <div class="contact-card fade-up">
-        <p>制作、開発、事業に関するご相談は、下記メールアドレスまでご連絡ください。</p>
-        <a href="mailto:ciel.kk.info@gmail.com" class="contact-email contact-email--light">ciel.kk.info@gmail.com</a>
+      <div class="contact-layout">
+        <div class="contact-card fade-up">
+          <span class="section-kicker">Mail</span>
+          <p>フォームが開けない場合は、下記メールアドレスまで直接ご連絡ください。</p>
+          <a href="mailto:ciel.kk.info@gmail.com" class="contact-email contact-email--light">ciel.kk.info@gmail.com</a>
+        </div>
+        <form class="contact-form fade-up" action="mailto:ciel.kk.info@gmail.com" method="post" enctype="text/plain">
+          <label>
+            <span>お名前</span>
+            <input type="text" name="name" autocomplete="name" placeholder="任意">
+          </label>
+          <label>
+            <span>メールアドレス</span>
+            <input type="email" name="email" autocomplete="email" required placeholder="example@email.com">
+          </label>
+          <label>
+            <span>相談内容</span>
+            <select name="category" required>
+              <option value="">選択してください</option>
+              <option value="アプリ開発">アプリ開発</option>
+              <option value="LP制作">LP制作</option>
+              <option value="AI・デジタル支援">AI・デジタル支援</option>
+              <option value="インソール">インソール</option>
+              <option value="その他">その他</option>
+            </select>
+          </label>
+          <label>
+            <span>予算感</span>
+            <select name="budget">
+              <option value="未定">未定</option>
+              <option value="3万円〜10万円">3万円〜10万円</option>
+              <option value="10万円〜30万円">10万円〜30万円</option>
+              <option value="30万円以上">30万円以上</option>
+            </select>
+          </label>
+          <label class="form-wide">
+            <span>お問い合わせ内容</span>
+            <textarea name="message" rows="7" required placeholder="作りたいもの、困っていること、希望時期などを入力してください。"></textarea>
+          </label>
+          <button type="submit" class="primary-link form-submit">送信する</button>
+        </form>
       </div>
     </div>
   </section>
